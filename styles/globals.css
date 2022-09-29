@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap")
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .primarybutton {
+        @apply px-10 border-2 rounded-full text-base border-[#FFFFFF] 
+        tracking-widest transition-all 
+        hover:border-[#007FB1]
+    }
+}
+
+h1 {
+    font-weight: 100;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-weight: 200;
+}
