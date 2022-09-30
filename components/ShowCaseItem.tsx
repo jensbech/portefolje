@@ -4,13 +4,8 @@ import Showcase from "./Showcase";
 import Image from "next/image";
 
 type Props = {};
+
 const pic = "/bt.png";
-
-
-
-
-
-
 
 function ShowCaseItem(props:any) {
   return (
@@ -19,20 +14,23 @@ function ShowCaseItem(props:any) {
         initial={{ y: 100 }}
         whileInView={{ y: 0 }}
         viewport={{ once: true }}
-        className="w-1/3 max-w-xs">
-        <div className="flex flex-col items-center justify-center rounded-3xl gap-2 select-none pb-10">
+        className="w-1/2 max-w-sm">
+        <div className="flex flex-col items-center justify-center rounded-3xl select-none">
         <div className="sm:text-2xl">{props.text}</div>
-        
 
-          <a href={props.imgurl}>
+          <a href={props.imgurl} className="pt-4 pb-2">
             <Image
               src={props.imgsrc}
               width={320}
               height={180}
               alt=""
-              className="rounded-3xl bg-fixed opacity-80 hover:opacity-100 transition duration-300 ease-in-out"
+              className="opacity-60 hover:opacity-100 transition duration-300 ease-in-out"
             ></Image>
+            
           </a>
+          <div className="flex flex-col items-center justify-center rounded-3xl gap-2 select-none sm:text-md pl-6 pr-6">
+            {props.description}
+          </div>
         </div>
       </motion.div>
     </>

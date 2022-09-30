@@ -30,7 +30,7 @@ function Hero({}: Props) {
             <br></br>
             <span style={{ color: '#007FB1' }} className='text-4xl'>{text}
             <Cursor 
-                cursorColor="#002939" 
+                cursorColor="#FFFFFF" 
                 cursorStyle='_'
                 /></span>
         </h1>

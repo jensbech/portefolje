@@ -69,7 +69,6 @@ function Header({}: Props) {
             duration: 1
           }}
           className='flex flex-row items-center text-gray cursor-pointer'>
-          
             <SocialIcon 
                 url="mailto:jens@bechsor.no" 
                 fgColor="white"
