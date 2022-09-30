@@ -16,13 +16,13 @@ function ShowCaseItem(props:any) {
   return (
     <>
       <motion.div
-        initial={{ x: 10 }}
-        whileInView={{ x: 0 }}
+        initial={{ y: 100 }}
+        whileInView={{ y: 0 }}
         viewport={{ once: true }}
-        className="flex w-1/3 rounded-2xl max-w-xs">
-        <div className="flex flex-col items-center justify-center rounded-3xl gap-2 select-none">
-
-        {props.text}
+        className="w-1/3 max-w-xs">
+        <div className="flex flex-col items-center justify-center rounded-3xl gap-2 select-none pb-10">
+        <div className="sm:text-2xl">{props.text}</div>
+        
 
           <a href={props.imgurl}>
             <Image
