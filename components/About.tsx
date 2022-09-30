@@ -14,9 +14,9 @@ function About({}: Props) {
             I Nederland tok jeg psykologutdanning, 
             men for det meste har jeg jobbet pasientnært med helse-, rus- og psykatri i Oslo. 
             I senere tid har jeg jobbet som karriereveileder, 
-            men endte opp med å veilede meg til selv til et yrkesskifte.
-            Våren 2022 gjorde jeg en helomvending, og tok en intensivutdanning
-            i fullstack C# / .NET / JS gjennom Academic Work. 
+            men endte opp med å veilede meg til selv til et karriereskifte.
+            Våren 2022 tok jeg intensivutdanning i C# .NET
+            gjennom Academic Work. 
             Setember 2022 begynte jeg å jobbe som utvikler for Elkjøp.
         </motion.p>
     </div>

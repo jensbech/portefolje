@@ -12,7 +12,7 @@ import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
   return (
-    <div className='h-screen snap-y snap-mandatory overflow-scroll z-0'>
+    <div>
 
       <Head>
         <title>Jens Bech-Sørensen</title>
