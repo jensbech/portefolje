@@ -10,7 +10,7 @@ function ProfileImage({ }: Props) {
 
     return (
 
-        <div className="flex flex-col items-center justify-center ">
+        <div className="flex flex-col items-center justify-center pointer-events-none">
             <Image src={pic} 
                 width={200} 
                 height={200} 

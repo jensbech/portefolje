@@ -7,8 +7,8 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import ProfileImage from '../components/ProfileImage'
 import About from '../components/About'
-import AboutBlog from '../components/AboutBlog'
-import Blog from '../components/Blog'
+import Showcase from '../components/Showcase'
+import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
   return (
@@ -24,8 +24,9 @@ const Home: NextPage = () => {
 
       <Hero />
       <About />
-      {/* <AboutBlog />
-      <Blog></Blog> */}
+      <Showcase />
+      <Footer></Footer>
+      
 
     </div>
   )
