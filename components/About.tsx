@@ -17,7 +17,7 @@ function About({}: Props) {
             men endte opp med å veilede meg til selv til et karriereskifte.
             Våren 2022 tok jeg intensivutdanning i C# .NET
             gjennom Academic Work. 
-            Setember 2022 begynte jeg å jobbe som utvikler for Elkjøp.
+            I september 2022 begynte jeg å jobbe som utvikler for Elkjøp.
         </motion.p>
     </div>
   )
