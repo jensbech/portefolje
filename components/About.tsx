@@ -20,5 +20,3 @@ function About({}: Props) {
 }
 
 export default About
-
-// max-w-screen-sm

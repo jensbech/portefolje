@@ -13,5 +13,3 @@ function Blog({}: Props) {
 }
 
 export default Blog
-
-// max-w-screen-sm
