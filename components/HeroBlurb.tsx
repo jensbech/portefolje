@@ -31,12 +31,12 @@ let sortedstringother = otherskillsstostring.replace(/,/g, ' 🤌 ');
 function HeroBlurb({}: Props) {
     const [text1, count1] = useTypewriter({
         words: [sortedstringcode],
-        typeSpeed: 1,
+        typeSpeed: 15,
         loop: 1
     });
     const [text2, count2] = useTypewriter({
         words: [sortedstringother],
-        typeSpeed: 1,
+        typeSpeed: 15,
         loop: 1
     });
 
@@ -45,6 +45,7 @@ function HeroBlurb({}: Props) {
     <div className='font-sans'>
             <br></br>
             <span style={{ color: '#FFFFFF' }}>{text1}</span>
+            <br></br>
             <br></br>
             <span style={{ color: '#007FB1' }}>{text2}</span>
     </div>
