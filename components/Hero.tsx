@@ -16,6 +16,7 @@ function Hero({}: Props) {
         delaySpeed: 7000,
         deleteSpeed: 1,
         typeSpeed: 100,
+        loop: true
         
     });
 
