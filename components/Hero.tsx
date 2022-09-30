@@ -13,7 +13,7 @@ function Hero({}: Props) {
             "hobbydesigner",
             "GM i Rocket League",
         ],
-        delaySpeed: 7000,
+        delaySpeed: 6000,
         deleteSpeed: 1,
         typeSpeed: 100,
         loop: true
