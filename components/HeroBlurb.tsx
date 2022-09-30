@@ -46,7 +46,6 @@ function HeroBlurb({}: Props) {
             <br></br>
             <span style={{ color: '#FFFFFF' }}>{text1}</span>
             <br></br>
-            <br></br>
             <span style={{ color: '#007FB1' }}>{text2}</span>
     </div>
     </>
