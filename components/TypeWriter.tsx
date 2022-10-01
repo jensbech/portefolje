@@ -6,7 +6,7 @@ export default function TypeWriter() {
         words: [
             "utvikler",
             "psykolog",
-            "(╯°□°)╯︵ ┻━┻",
+            "¯\_(ツ)_/¯",
             "hobbydesigner",
             "GM i Rocket League",
         ],
@@ -17,7 +17,7 @@ export default function TypeWriter() {
     });
 
   return (
-    <div className='font-poppins pt-6 flex flex-col items-center justify-center text-center overflow-hidden select-none'>
+    <div className='pb-4 font-poppins pt-8 flex flex-col items-center justify-center text-center overflow-hidden select-none'>
         <h1>
             <span className='text-4xl'>Jens Bech Sørensen </span>
             <br></br>

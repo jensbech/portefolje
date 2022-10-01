@@ -1,40 +1,31 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap")
-
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-    .primarybutton {
-        @apply px-10 border-2 rounded-full text-base border-[#FFFFFF] 
-        tracking-widest transition-all 
-        hover:border-[#007FB1]
-    }
-}
-
 h1 {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 h3 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 body {
-    background-color: black;
-    color: white;
-    font-weight: 200;
+  background-color: black;
+  color: white;
+  font-weight: 200;
 }
 
 a:link {
-    color: #ccc;
-  }
-  a:visited {
-    color: #c7c7c7;
-  }
-  a:hover {
-    color: #FFFFFF;
-  }
-  a:active {
-    color: #800000;
-  }
+  color: #cccccc;
+}
+a:visited {
+  color: #cccccc;
+}
+a:hover {
+  color: #ffffff;
+}
+a:active {
+  color: #007FB1;
+}

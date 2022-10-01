@@ -34,11 +34,10 @@ let codeOutput = codeSkillsString.replace(/,/g, " | ");
 otherOutput = "🤌 " + otherOutput;
 codeOutput = "💻 " + codeOutput;
 
-export default function HeroBlurb() {
+export default function SkillsArray() {
   return (
     <div className="pr-4 pl-4 text-gray-400">
       {codeOutput}
-      <br></br>
       <br></br>
       {otherOutput}
     </div>
