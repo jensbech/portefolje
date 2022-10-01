@@ -13,6 +13,7 @@ const Home: NextPage = () => {
   return (
     <div>
 
+
       <Head>
         <title>Jens Bech-Sørensen</title>
       </Head>
