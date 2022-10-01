@@ -34,6 +34,7 @@ let codeOutput = codeSkillsString.replace(/,/g, " | ");
 otherOutput = "🤌 " + otherOutput;
 codeOutput = "💻 " + codeOutput;
 
+
 export default function SkillsArray() {
   return (
     <div className="pr-4 pl-4 text-gray-400">
