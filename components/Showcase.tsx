@@ -21,7 +21,7 @@ export default function Showcase() {
           text="Null Stress"
           imgurl="https://link.springer.com/article/10.1007/s40806-016-0048-6"
           imgsrc="/null.jpg"
-          description="Avslutningsprosjekt AW Academy. Vi var fire som lagde en fullstack løsning på to uker. Gøy og krevende med kort fartstid som koder. C#, JavaScript, ASP.NET web-API, Next.js Twilio, Azure mm."
+          description="Avslutningsprosjekt AW Academy. Jeg og tre andre laget en fullstack løsning på kort tid. C#, JavaScript, ASP.NET web-API, Next.js Twilio, Azure mm."
         />
       </div>
 
