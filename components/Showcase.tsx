@@ -55,7 +55,7 @@ export default function Showcase() {
 
         <ShowCaseItem
           text="Kronikk i BT"
-          imgurl="https://www.bt.no/btmeninger/debatt/i/28qgXy/hvem-vil-du-vaere-etter-gjenaapningen"
+          imgurl="https://cloud.bechsor.no/s/CNaCxMsNEMAXqPe"
           imgsrc="/bt.jpg"
           description="Jeg mente litt av hvert under koronatiden. Halvveis i kjedsomhet skrev jeg en kronikk, som faktisk ble publisert. Den handler egentlig om meg selv."
         />
