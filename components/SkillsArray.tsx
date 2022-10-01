@@ -38,7 +38,7 @@ export default function SkillsArray() {
   return (
     <div className="pr-4 pl-4 text-gray-400">
       {codeOutput}
-      <br></br>
+      <br></br><br></br>
       {otherOutput}
     </div>
   );
