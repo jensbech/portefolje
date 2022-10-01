@@ -13,13 +13,13 @@ export default function Showcase() {
 
         <ShowCaseItem
           text="Denne siden"
-          imgurl="https://link.springer.com/article/10.1007/s40806-016-0048-6"
+          imgurl="/"
           imgsrc="/dennesiden.jpg"
           description="Mitt første soloprosjekt, for å bedre lære Typescript, TailWind og React. Det blir spennende å se tilbake på koden om noen år."
         />
         <ShowCaseItem
           text="Null Stress"
-          imgurl="https://link.springer.com/article/10.1007/s40806-016-0048-6"
+          imgurl="https://null-stress-solution-nullfront-m3jd.vercel.app/"
           imgsrc="/null.jpg"
           description="Avslutningsprosjekt AW Academy. Jeg og tre andre laget en fullstack løsning på kort tid. C#, JavaScript, ASP.NET web-API, Next.js Twilio, Azure mm."
         />
@@ -30,7 +30,7 @@ export default function Showcase() {
 
         <ShowCaseItem
           text="Mastergrad i psykologi"
-          imgurl="https://link.springer.com/article/10.1007/s40806-016-0048-6"
+          imgurl="https://cloud.bechsor.no/s/AHckbAQW8p4gQ4e"
           imgsrc="/master.jpg"
           description="Jeg skrev mastergraden min om hvordan mennesker kan rettferdiggjøre å eklsudere andre fra sosiale fellesskap."
         />
