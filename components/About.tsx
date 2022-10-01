@@ -1,13 +1,9 @@
-import { motion } from 'framer-motion'
 import React from 'react'
 
-type Props = {}
-
-function About({}: Props) {
+export default function About() {
   return (
     <div className='flex items-center justify-center content-center'>
-        <p
-        className='font-sans text-lg max-w-screen-sm text-center px-5 items-center content-center'>
+        <p className='font-sans text-lg max-w-screen-sm text-center px-5 items-center content-center tracking-wide'>
             I Nederland tok jeg psykologutdanning, 
             men for det meste har jeg jobbet pasientnært med helse-, rus- og psykatri i Oslo. 
             I senere tid har jeg jobbet som karriereveileder, 
@@ -18,5 +14,3 @@ function About({}: Props) {
     </div>
   )
 }
-
-export default About

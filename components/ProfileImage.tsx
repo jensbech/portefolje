@@ -1,17 +1,10 @@
 import React from "react";
-import { motion } from "framer-motion"
 import Image from 'next/image'
 
-const pic = '/pic.jpg'
-
-type Props = {};
-
-function ProfileImage({ }: Props) {
-
+export default function ProfileImage() {
     return (
-
-        <div className="flex flex-col items-center justify-center pointer-events-none">
-            <Image src={pic} 
+        <div className="flex flex-col items-center justify-center pointer-events-none pt-10">
+            <Image src="/pic.jpg" 
                 width={200} 
                 height={200} 
                 alt=""
@@ -19,5 +12,3 @@ function ProfileImage({ }: Props) {
         </div>
     )
 }
-
-export default ProfileImage;
