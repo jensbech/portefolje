@@ -6,7 +6,7 @@ export default function TypeWriter() {
         words: [
             "utvikler",
             "psykolog",
-            "¯\_(ツ)_/¯",
+            "¯\\_(ツ)_/¯",
             "hobbydesigner",
             "GM i Rocket League",
         ],
