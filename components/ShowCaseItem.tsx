@@ -10,7 +10,7 @@ export default function ShowCaseItem(props: any) {
         viewport={{ once: true }}
         className="w-1/2 max-w-sm"
       >
-        <div className="flex flex-col items-center justify-center rounded-3xl select-none">
+        <div className="flex flex-col items-center justify-center select-none">
 
           <a href={props.imgurl} className="pt-4">
 

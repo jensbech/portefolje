@@ -1,7 +1,7 @@
 import React from "react";
 import ShowCaseItem from "./ShowCaseItem";
 
-const itemCSS: string = "font-sans justify-center text-center flex gap-6 pb-4";
+const itemCSS: string = "font-sans justify-center text-center flex gap-2 pb-4";
 const headerCSS: string = "flex items-center justify-center content-center text-3xl font-sans pt-12 pb-2"
 const pCSS: string = "font-sans text-center items-center content-center"
 
@@ -13,15 +13,15 @@ export default function Showcase() {
 
         <ShowCaseItem
           text="Denne siden"
-          imgurl="/"
+          imgurl="https://github.com/jebeso/portefolje"
           imgsrc="/dennesiden.jpg"
-          description="Mitt første soloprosjekt, for å bedre lære Typescript, TailWind og React. Det blir spennende å se tilbake på koden om noen år."
+          description="Laget for å lære mer om Typescript, TailWind og React. Og for å vise alle hvor kul jeg tror jeg er"
         />
         <ShowCaseItem
           text="Null Stress"
           imgurl="https://null-stress-solution-nullfront-m3jd.vercel.app/"
           imgsrc="/null.jpg"
-          description="Avslutningsprosjekt AW Academy. Jeg og tre andre laget en fullstack løsning på kort tid. C#, JavaScript, ASP.NET web-API, Next.js Twilio, Azure mm."
+          description="Avslutningsprosjekt AW Academy. C#, JavaScript, ASP.NET Web-API, Next.js, Twilio, Azure..."
         />
       </div>
 
@@ -32,14 +32,14 @@ export default function Showcase() {
           text="Mastergrad i psykologi"
           imgurl="https://cloud.bechsor.no/s/AHckbAQW8p4gQ4e"
           imgsrc="/master.jpg"
-          description="Jeg skrev mastergraden min om hvordan mennesker kan rettferdiggjøre å eklsudere andre fra sosiale fellesskap."
+          description="Masteroppgave om hvordan mennesker rettferdiggjør å eklsudere andre fra sosiale grupper."
         />
 
         <ShowCaseItem
           text="Vitenskapelig publikasjon"
           imgurl="https://link.springer.com/article/10.1007/s40806-016-0048-6"
           imgsrc="/pub.jpg"
-          description="Forskningsprosjekt som ble publisert i Evolutionary Psychological Science. Å publisere forskning nærliggende dagsaktuell debattemaer har lært meg mye om hvordan andre kan bruke ord fra forskning i politisk kontekst. Hint: Twitter."
+          description="Forskningsprosjekt som jeg gjennomførte. Publisert i Evolutionary Psychological Science."
         />
       </div>
 
@@ -50,14 +50,14 @@ export default function Showcase() {
           text="Self-hosted cloud"
           imgurl="https://cloud.bechsor.no"
           imgsrc="/nc.jpg"
-          description="Jeg er veldig opptatt av hvordan data om meg lagres og forvaltes. Jeg har derfor satt opp en egen skytjeneste hjemmefra, med Rasperry Pi og NextCloud."
+          description="Jeg er veldig opptatt av eierskap over egen data. Satt opp på Rasperry Pi med NextCloud."
         />
 
         <ShowCaseItem
           text="Kronikk i BT"
           imgurl="https://cloud.bechsor.no/s/CNaCxMsNEMAXqPe"
           imgsrc="/bt.jpg"
-          description="Jeg mente litt av hvert under koronatiden. Halvveis i kjedsomhet skrev jeg en kronikk, som faktisk ble publisert. Den handler egentlig om meg selv."
+          description="Jeg skrev en kronikk under pandemien som ble publisert i avisen. Artig å skrive!"
         />
       </div>
     </>
