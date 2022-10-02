@@ -7,7 +7,6 @@ export default function TypeWriter() {
             "utvikler",
             "psykolog",
             "¯\\_(ツ)_/¯",
-            "hobbydesigner",
             "GM i Rocket League",
         ],
         delaySpeed: 5000,
