@@ -13,20 +13,19 @@ export default function SocialIcons() {
     <header>
         <motion.div 
           initial={{
-            x: 0,
+            y: -30,
             opacity: 0,
-            scale:0.5
+            scale:0.3
           }}
           animate={{
-            x: 0,
+            y: 0,
             opacity: 1,
             scale: 1
           }}
           transition={{
-            ease: "easeOut", 
-            duration: 0.5
+            duration: 0.6
           }}
-          className="justify-center flex">
+          className="justify-center flex pb-3">
 
             <div className={hover}>
               <SocialIcon 

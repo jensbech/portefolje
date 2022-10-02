@@ -15,7 +15,7 @@ export default function Showcase() {
           text="Denne siden"
           imgurl="https://github.com/jebeso/portefolje"
           imgsrc="/dennesiden.jpg"
-          description="Laget for å lære mer om Typescript, TailWind og React. Og for å vise alle hvor kul jeg tror jeg er"
+          description="Laget for å lære mer om Typescript, TailWind og React. Og for å vise alle hvor kul jeg tror jeg er."
         />
         <ShowCaseItem
           text="Null Stress"
@@ -32,7 +32,7 @@ export default function Showcase() {
           text="Mastergrad i psykologi"
           imgurl="https://cloud.bechsor.no/s/AHckbAQW8p4gQ4e"
           imgsrc="/master.jpg"
-          description="Masteroppgave om hvordan mennesker rettferdiggjør å eklsudere andre fra sosiale grupper."
+          description="Masteroppgave om hvordan mennesker rettferdiggjør å ekskludere andre fra sosiale grupper."
         />
 
         <ShowCaseItem
