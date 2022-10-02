@@ -19,7 +19,7 @@ export default function Showcase() {
         />
         <ShowCaseItem
           text="Null Stress"
-          imgurl="https://null-stress-solution-nullfront-m3jd.vercel.app/"
+          imgurl="https://github.com/johanparnian/NullStressSolution/"
           imgsrc="/null.jpg"
           description="Avslutningsprosjekt AW Academy. C#, JavaScript, ASP.NET Web-API, Next.js, Twilio, Azure..."
         />
