@@ -3,13 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 const Home: NextPage = () => {
-  return (
-    <div>
-      <Header></Header>
-      main
-      <Footer></Footer>
-    </div>
-  );
+  return <div>hello, there </div>;
 };
 
 export default Home;
